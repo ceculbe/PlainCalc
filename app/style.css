@@ -1,0 +1,52 @@
+html {
+  overscroll-behavior: none;
+}
+
+body {
+  box-sizing: border-box;
+  width: 318px;
+  margin: 1px;
+  background-color: #1c1c1c;
+  font-family: Helvetica, sans-serif;
+}
+
+.display {
+  box-sizing: border-box;
+  margin: 0px;
+  width: 100%;
+  padding: 50px 10px 5px;
+  font-size: 72px;
+  font-weight: 200;
+  text-align: right;
+  color: white;
+}
+
+.buttons {
+  width: 310px;
+  margin: auto;
+}
+
+.btn {
+  font-size: 32px;
+  color: white;
+  border: 0px;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  text-decoration: none;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+}
+
+.A {
+  background-color: #515151;
+}
+
+.B {
+  background-color: #a5a5a5;
+}
+
+.C {
+  background-color: #ff9f0a;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=320, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <title>PlainCalc</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="display" id="display">display</div>
+    <div class="buttons">
+      <button class="btn B" onclick="clr()">AC</button>
+      <button class="btn B" onclick="plusminus()">±</button>
+      <button class="btn B" onclick="percent()">%</button>
+      <button class="btn C" onclick="addOp('÷')">÷</button>
+      <br />
+      <button class="btn A" onclick="addDigit(7)">7</button>
+      <button class="btn A" onclick="addDigit(8)">8</button>
+      <button class="btn A" onclick="addDigit(9)">9</button>
+      <button class="btn C" onclick="addOp('×')">×</button>
+      <br />
+      <button class="btn A" onclick="addDigit(4)">4</button>
+      <button class="btn A" onclick="addDigit(5)">5</button>
+      <button class="btn A" onclick="addDigit(6)">6</button>
+      <button class="btn C" onclick="addOp('–')">–</button>
+      <br />
+      <button class="btn A" onclick="addDigit(1)">1</button>
+      <button class="btn A" onclick="addDigit(2)">2</button>
+      <button class="btn A" onclick="addDigit(3)">3</button>
+      <button class="btn C" onclick="addOp('+')">+</button>
+      <br />
+      <button class="btn A" onclick="addDigit(0)">0</button>
+      <button class="btn A" onclick="addDecimal()">.</button>
+      <button class="btn A" onclick="backspace()">⌫</button>
+      <button class="btn C" onclick="solve()">=</button>
+    </div>
+  </body>
+</html>
